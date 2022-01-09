@@ -1,0 +1,99 @@
+WHAT IS NODE JS = NODE.JS IS A JAVASCRIPT RUNTIME BUILD ON GOOGLE'S OPEN-SOURCE V8 JAVA SCRIPT ENGINE.
+
+Node js ->
+Singel-threaded, base on event drive, non-blocking I/O model.
+Perfect fro building fast and scalable data-intensive apps.
+
+> a = 10;
+10
+> a + 20;
+30
+> _+10;
+40
+>
+.exit
+
+REPL 
+
+R - READ -> READ USER INPUT
+E - EVAL -> EVALUATE USER INPUT
+P - PRINT -> PRINT OUTPUT ( RESULT )
+L - LOOP -> WAIT FOR NEW INPUT
+
+url.Parse() - Parse and address with the url.Parse() methods, and it will resutrn a url object with each part of the address as property
+
+The url.parse() method takes a URL string, parses it, and it will return a URL object with each part of the address as properties.
+
+parseQueryString: It is a boolean value. If it set to true then the query property will be set to an object returned by the querystring module’s parse() method. If it set to false then the query property on the returned URL object will be an unparsed, undecoded string. Its default value is false.
+
+npm pakeges - 1.4.6
+1 - mager version (if the new change here mean 2, 3 ,4 that means new version of model)
+
+4 - minor version (if the new change here mean .5.0, .6.0 mean the new fearture added into the moduel)
+
+6 - patch varsion ( if the new changes here mena .7, .8 it this is mean the module’s bug fixes )
+
+^ - pakeges minor version
+~ - this symbol is only patch releases
+* - this symbol mean update pakeges auto mean ( 1.0.0, 2.3.4 etc.. )
+
+Request-response model of Client-server architecture - The typical model for computer commminicating on a network is Request-response. In the request-response model, a client computer or software requests data or services, and a server computer or software responds to the request by providing the data or service.
+
+DNS - DOMAIN NAME SYSTEM is the naming system for internet connected resources. DNS maintains a list of domain names along with the resources, such as IP addresses, that are associated with them. 
+ 
+Protocol - ( HTTP OR HTTPS )
+IP adress - ( 216.10.32 )
+Port number - ( default 443 fro HTTPS 80 for HTTP )
+
+TCP/IP SOCKET CONNECTION - 
+
+
+GET - REQUEST DATA
+POST - SANDING DATA 
+PUT OR PATCH - FOR MODIFY DATA 
+
+/////////////////////////////////////
+
+DON'T BLOCK!
+
+Don't use sync version of funtion in fs, crypto and zlib modules in your callback function
+
+Don't perform complex calculations ( e.g. loops inside loops )
+
+Be Careful with JSON in large object
+
+Don't use too complex regular expressions ( e.g. nested quntifiers ).
+
+/////////////////////////////////////
+
+SINGLE THREAD - 
+
+INITIALIZE PROGRAME -> EXECUTE 'TOP-LAVEL' CODE -> REQUIRE MODEULS -> REGISTER EVENT CALLBACKS -> START EVENT LOOP
+
+EVENT EMITTER - The EventEmitter is a module that facilitates communication/interaction between objects in Node. EventEmitter is at the core of Node asynchronous event-driven architecture. ... The concept is quite simple: emitter objects emit named events that cause previously registered listeners to be called.
+
+
+The Commonn js Module system
+
+Each JAVASCRIPT file treated as a moduel.
+Node.js uses the CommonJs moduel system: require().exporting of module.exports
+ES Module system is used in browser import/export;
+
+HOW TO REQUIRE FUNTION IMPORTING MODULE ? 
+WE CAN USE THE IMPORING MODULE AND EXPORTING MODULE BUT IN THE NODE JS WE USE THE REQUIRE FUNCTION HOW IT'S WORK BEHIND THE SEEN ?
+
+RESOLVING & LOADNING -> WRAPPING -> EXECUTON -> RETURNING EXPORTS -> CACHING
+
+////////////////////////////////
+
+WHAT IS EXPRESS JS - 
+
+EXPRESS IS A MINIMAL NODE.JS FRAMWORK, A HIGHER LEVEL OF ABSTRACTION.
+
+EXPRESS CONTAINS A VERY ROBUST SET OF FEATURES: COMPLEX ROUTINGM EASIER HANDING OF REQUESTS AND RESPONSES, MIDDLEWARE, SERVER-SIDE RENDERING ETC:..
+
+EXPRESS ALLOW FOR RAPID DEVEOPMENT OF NODE.JS APPLICATIONS: WE DON'T HAVE TO RE-INVENT THE WHEEL;
+
+EXPRESS MAKES IT EASIER TO ORGANIZE OUR APPLICATION INTO THE MVC ARCHITECTURE.
+
+REST - REPRESENTATIONAL STATES TRANSFER,
