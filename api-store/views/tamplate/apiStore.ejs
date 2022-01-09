@@ -1,0 +1,40 @@
+<%- include('../particales/header.ejs') %>
+  <form action="/form" method="POST">
+    <div class="container">
+      <h1>api data store</h1>
+
+      <label for="id"><b>id</b></label>
+      <input type="number" name="id" placeholder="Enter id" required>
+
+      <label for="posterUrl"><b>posterUrl</b></label>
+      <input type="text" name="posterUrl" placeholder="Enter posterUrl" required>
+
+      <label for="shortTitle"><b>shortTitle</b></label>
+      <input type="text" name="shortTitle" placeholder="Enter shortTitle" required>
+
+      <label for="ragulerPrice"><b>ragulerPrice</b></label>
+      <input type="number" name="ragulerPrice" placeholder="Enter ragulerPrice" required>
+
+      <label for="Deal_of_the_Day"><b>Deal of the day</b></label>
+      <input type="Deal_of_the_Day" name="Deal_of_the_Day" placeholder="Deal of the day" required>
+
+      <label for="anwsered"><b>anwsered</b></label>
+      <input type="text" name="anwsered" placeholder="anwsered" required>
+
+      <label for="offer"><b>offer</b></label>
+      <input type="text" name="offer" placeholder="offer" required>
+
+      <label for="Discription"><b>Discription</b></label>
+      <textarea name="Discription" placeholder="Discription"></textarea>
+
+      <label for="About"><b>About</b></label>
+      <textarea name="About" placeholder="About"></textarea>
+
+      <div class="clearfix">
+        <button type="submit" class="btn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+
+
+  <%- include('../particales/footer.ejs') %>
