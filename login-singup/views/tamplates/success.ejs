@@ -1,0 +1,20 @@
+<%- include('../particles/head.ejs') %>
+  </body>
+  <h1>Success full log in</h1>
+
+  <% for(const el of result) { %>
+    <p>your email:
+      <%= el.email%>
+    </p>
+    <p>user <%= el.firstName %>
+    </p>
+    <% } %>
+      </p>
+      <form action="" method="POST">
+        <button type="submit">Log out</button>
+      </form>
+      <form action="/delete" method="POST">
+        <button type="submit">delete account</button>
+      </form>
+
+      </html>
